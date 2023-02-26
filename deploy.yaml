@@ -18,7 +18,7 @@ spec:
         app: webapp1
     spec:
       containers:
-      - image: ammarsura/foo-repo:simple-express-server
+      - image: 749096123717.dkr.ecr.ap-east-1.amazonaws.com/chatdaddy-registry:simple-express-server
         imagePullPolicy: Always
         resources: {}
         name: container-new
